@@ -32,6 +32,7 @@ export class Mexc implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Mexc ',
 		name: 'Mexc',
+		icon: 'file:mexc-logo.svg',
 		group: ['utility'],
 		version: 1,
 		description: 'Trade on Mexc',
